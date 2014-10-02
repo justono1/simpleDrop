@@ -33,7 +33,7 @@
 		// Avoid Plugin.prototype conflicts
 		$.extend(Plugin.prototype, {
 				init: function () {
-					var menuNav = $(this).children();
+					var menuNav = $(this.element).children();
 					var menuItem = menuNav.children();
 					var menuItems = menuItem.children();
 
