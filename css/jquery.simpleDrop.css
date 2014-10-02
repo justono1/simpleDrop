@@ -1,0 +1,17 @@
+.simpleDrop li {
+	list-style: none;
+}
+.simpleDrop li {
+	padding: 10px 0;
+}
+.simpleDrop > li {
+	border-bottom: 1px solid #000;
+	padding-left: 15px;
+	cursor: pointer;
+}
+.simpleDrop > li:first-child {
+	border-top: 1px solid #000;
+}
+.simpleDrop li > ul {
+	margin-top: 8px;
+}

@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+section {
+	width: 100%;
+	display: block;
+}
+.inner-container {
+	width: 960px;
+	margin: 0 auto;
+}
+.drop-down .inner-container {
+	width: 400px;
+	padding-top: 200px;
+}
